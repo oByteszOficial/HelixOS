@@ -1,0 +1,19 @@
+# Pastas temporárias e arquivos do Cubic
+*.iso
+*.img
+*.tmp
+*.bak
+*.log
+*.swp
+*.swo
+*.DS_Store
+*.cache
+*.lock
+
+# Diretórios comuns de build
+helixos_2.1
+banner.png
+/Base/
+
+# Arquivos do sistema
+lost+found/

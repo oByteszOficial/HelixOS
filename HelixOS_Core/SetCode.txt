@@ -1,0 +1,5 @@
+sudo apt update
+sudo apt install python3-pyqt5  # Instala o PyQt5 (versão mais comum)
+chmod +x helixdeps.sh
+./helixdeps.sh
+lintian helixos-core.list  # Instale com: sudo apt install lintian
