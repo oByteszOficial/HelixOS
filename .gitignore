@@ -11,9 +11,10 @@
 *.lock
 
 # Diretórios comuns de build
-helixos_2.1
+/helixos_2.1/
 banner.png
 /Base/
+/CubicCHrootFiles/
 
 # Arquivos do sistema
 lost+found/

@@ -1,0 +1,11 @@
+Hi! :3
+This .txt was made to explain how the HelixOS Linux file structure works and how the file structure on github works.
+
+Part 1: Github
+On Github the file structure seems pretty messy, I'm aware of this and I'm trying to fix it as best I can, but here are the main parts of the code:
+
+HelixOS/Base: this is one of the few folders that are not on github (consequently being in the .gitignore file) but what's inside here is the base iso (currently Ubuntu 24.04LTS) and that's literally it.
+
+HelixOS/Relases: all the ISOs are stored here, but this folder will probably go to .gitignore. If this doesn't happen, at least the private and old builds will be there. At the time I'm writing this part of the file, this folder only has a few subfolders and a "changelog" file.
+
+HelixOS/HelixOS_Core: this is where almost all the custom code and "extra" apps for the system are stored, separated into 3 main subfolders: C#, Python and SH. Here everything is separated by language, and within each subfolder we have more folders, but these contain each HelixOS app project. Specifically, the SH folder has mostly automation scripts that I write on my computer before moving them to the chroot where the project is worked on.
