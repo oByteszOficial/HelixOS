@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Helix Project</title>
+        <link rel="stylesheet" href="Styles.css">
+        <script src="Main.js" defer></script>
+        <style src="Styles.css"></style>
+    </head>
+    <body>
+        <header>
+            <div class="Container" style="display: flex; align-items: center; justify-content: space-between;">
+                <div class="Logo">
+                    <img src="Logo.png" alt="Logo" style="height: 80px;" onclick="location.href='Index.html'">
+                </div>
+                <nav>
+                    <ul style="display: flex; list-style: none; margin: 0; padding: 0;">
+                        <input type="button" value="Home" onclick="location.href='index.html'" style="margin-right: 10px;">
+                        <input type="button" value="About" onclick="location.href='About.html'" style="margin-right: 10px;">
+                        <input type="button" value="Download" onclick="location.href='Download.html'" style="margin-right: 10px;">
+                        <input type="button" value="Support" onclick="location.href='Support.html'" style="margin-right: 100px;">
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+           <h2>Hey! What are you doing here?</h2><h4>You need to sign-in to continue</h4> 
+              <form name="FormSignIn" method="post" action="Download.html">
+                 <input type="text" name="username" placeholder="Username" required>
+                 <input type="password" name="password" placeholder="Password" required>
+                 <input type="button" value="Sign-in" onclick="validateForm()" style="margin-right: 10px;">
+                 <input type="button" value="Back" onclick="location.href='index.html'" style="margin-right: 10px;">
+              </form>
+              <script>
+                function validateForm() {
+                    const username = document.forms["FormSignIn"]["username"].value;
+                    const password = document.forms["FormSignIn"]["password"].value;
+
+                    // Substitua pelos valores corretos para validação
+                    const validUsername = "Byt3z";
+                    const validPassword = "cu_again";
+
+                    if (username == "Byt3z" && password == "Tabajara@1207894")
+                    {
+                        alert("Welcome Byt3z! Redirecting to Google Drive folder...");
+                        window.location.href = "https://drive.google.com/drive/folders/1DMscdw919nbrzaO5EDD0JDtFq4TMlDui?usp=sharing";
+                        return false;
+                    }
+                    else if (username == "GivFNZ" && password == "GivFNZ1234")
+                    {
+                        alert("Welcome Givito! Redirecting to Google Drive folder...");
+                        window.location.href = "https://drive.google.com/drive/folders/1DMscdw919nbrzaO5EDD0JDtFq4TMlDui?usp=sharing";
+                        return false;
+                    }
+
+                    if (username == "" && password == "")
+                    {
+                        alert("Please enter your username and password.");
+                        return false;
+                    }
+
+                    if (username === validUsername && password === validPassword)
+                    {
+                        // Redireciona para o link do Google Drive
+                        alert("Login successful! Redirecting to Google Drive folder...");
+                        window.location.href = "https://drive.google.com/drive/folders/1DMscdw919nbrzaO5EDD0JDtFq4TMlDui?usp=sharing";
+                        return false;
+                    } 
+                    else
+                    {
+                        alert("Username or password is incorrect.");
+                        // Limpa os campos de entrada
+                        document.forms["FormSignIn"]["username"].value = "";
+                        document.forms["FormSignIn"]["password"].value = "";
+                        return false;
+                    }
+                }
+              </script>
+        </main>
+        <footer>
+            <p>&copy; 2022 - 2025 HelixOS</p>
+        </footer>
+    </body>
+</html>

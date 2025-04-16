@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #eaf1ff;
+    color: black;
+    padding: 10px 0;
+}
+header .container nav ul li a {
+    color: black;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    background-color: #f7faff;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}

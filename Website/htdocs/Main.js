@@ -9,9 +9,3 @@ function Start() {
     Update();
 
 }
-
-function Download() {
-
-    Document.FormDownload.submit();
-
-}
