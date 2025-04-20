@@ -55,3 +55,14 @@ footer {
   text-align: center;
   padding: 10px 0;
 }
+
+@media (max-width: 690px) {
+  main,
+  header {
+    padding: 1em 2.5em;
+  }
+
+  header {
+    flex-direction: column;
+  }
+}
