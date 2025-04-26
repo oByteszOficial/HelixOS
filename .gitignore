@@ -18,6 +18,7 @@ banner.png
 /.confidential/
 /system/
 /CubicProject/
+/.git/
 
 # Arquivos de configuração
 commit.sh
