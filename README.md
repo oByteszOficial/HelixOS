@@ -20,7 +20,7 @@ This OS is based on **Ubuntu**, but at the same time it has a similar idea to Ch
 
 HelixOS is distributed via pre-built ISOs. You can flash the ISO to a USB drive using tools like **Balena Etcher**, **Rufus**, or **dd**, then boot from it and follow the on-screen instructions.
 
-> [Download ISO](http://helixos.rf.gd/download.html)
+> [Download ISO](http://helixos.rf.gd/download/)
 
 ## 📃 License
 
