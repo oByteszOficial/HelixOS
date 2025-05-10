@@ -33,6 +33,7 @@ Made by:
 - **BitosXD**
 - **Lucmsilva**
 - **Giv-FNZ**
+- **Guii1161**
 
 ---
 
