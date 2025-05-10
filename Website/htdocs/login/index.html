@@ -20,10 +20,18 @@
     </nav>
   </header>
   <main>
-    <h1>Coming soon!</h1>
+    <h2>Hey! What are you doing here?</h2>
+    <h4>You need to sign-in to continue</h4>
+    <form name="loginDetails" method="post">
+      <input type="text" name="username" placeholder="Username" id="userLoginInput" required>
+      <input type="password" name="password" placeholder="Password" id="userPwdInput" required>
+      <input type="button" value="Sign-in" id="signInBtn">
+      <input type="button" value="Back" id="goBackBtn">
+    </form>
   </main>
   <footer>
     <p>&copy; 2022 - 2025 HelixOS</p>
   </footer>
+  <script src="/js/login.js"></script>
 </body>
 </html>
