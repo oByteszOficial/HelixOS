@@ -16,13 +16,10 @@ banner.png
 /Base/
 /CubicCHrootFiles/
 /.confidential/
-/system/
-/CubicProject/
+/System/
 /.git/
 
 # Arquivos de configuração
-commit.sh
-mchroot.sh
 
 # Arquivos do sistema
 lost+found/

@@ -8,6 +8,4 @@ fi
 
 echo "🔄 Fazendo commit com a mensagem: $msg"
 
-git add .
-git commit -m "$msg"
-git push origin main
+git add . && git commit -m $msg && git push
