@@ -30,10 +30,11 @@ _This project is still in development. License will be defined later._
 
 Made by:
 
-- **BitosXD**
-- **Lucmsilva**
-- **Giv-FNZ**
-- **Guii1161**
+[Gabii :3](https://github.com/Guii1161)
+[BitosXD](https://github.com/oByteszOficial)
+[Lucmsilva](https://github.com/lucmsilva651)
+[Giv-FNZ](https://github.com/GiovaniFZ)
+[Nassinger](https://github.com/im-nassinger)
 
 ---
 
