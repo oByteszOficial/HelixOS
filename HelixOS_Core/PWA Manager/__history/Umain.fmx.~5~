@@ -1,0 +1,38 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'PWA'
+  ClientHeight = 404
+  ClientWidth = 636
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object WebBrowser1: TWebBrowser
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Size.Width = 636.000000000000000000
+    Size.Height = 372.000000000000000000
+    Size.PlatformDefault = False
+    Position.Y = 32.000000000000000000
+    WindowsEngine = IEOnly
+    URL = 'http://helixos.rf.gd'
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    Position.X = 161.000000000000000000
+    Position.Y = 8.000000000000000000
+    TabOrder = 2
+    Text = 'Open'
+    TextSettings.Trimming = None
+    OnClick = Button1Click
+  end
+end

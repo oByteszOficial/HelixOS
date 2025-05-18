@@ -18,6 +18,8 @@ banner.png
 /.confidential/
 /System/
 /.git/
+/.vscode/
+/.vs/
 
 # Arquivos de configuração
 

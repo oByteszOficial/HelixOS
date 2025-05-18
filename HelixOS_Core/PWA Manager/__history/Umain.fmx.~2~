@@ -1,0 +1,19 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'PWA'
+  ClientHeight = 404
+  ClientWidth = 636
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object WebBrowser1: TWebBrowser
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Size.Width = 636.000000000000000000
+    Size.Height = 404.000000000000000000
+    Size.PlatformDefault = False
+    WindowsEngine = IEOnly
+    URL = 'http://helixos.rf.gd'
+  end
+end
