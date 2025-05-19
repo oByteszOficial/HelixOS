@@ -12,8 +12,14 @@ This OS is based on **Ubuntu**, but at the same time it has a similar idea to Ch
 
 ## 🖥️ System Requirements
 
+Minimum:
 - Dual-core CPU (2.1GHz or higher)
-- 4GB of RAM (minimum)
+- 4GB of RAM
+- 30GB of free disk space
+
+Recommended:
+- Dual-core CPU (2.3GHz or righer)
+- 5 or 6GB of RAM
 - 30GB of free disk space
 
 ## 📦 Installation
