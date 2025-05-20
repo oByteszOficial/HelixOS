@@ -1,9 +1,11 @@
+#Code by Byt3z :3
+
 import os as host
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import tkinter.ttk as ttk
 
-def Main():
+class Main():
     # Create the main window
     root = tk.Tk()
     
@@ -19,12 +21,16 @@ def Main():
 
     # -Content-
 
+    txt1 = tk.Label(sidebar, text="Home")
+
+    txt1.grid(row=1, column=0, padx=15, pady=15)
+
     # --EndSidebar--
 
     # --Main--
 
-    main_frame = tk.Frame(root, bg="white")
-    main_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+    main = tk.Frame(root, bg="white")
+    main.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
     # -Content-
 

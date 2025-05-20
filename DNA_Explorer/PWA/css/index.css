@@ -1,0 +1,32 @@
+/* Code by Byt3z */
+
+#top {
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+#searchB {
+
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 5px;
+
+}
+
+#search {
+
+    padding: 5px;
+
+}
+
+.header {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* ou outra lógica de alinhamento */
+  
+}

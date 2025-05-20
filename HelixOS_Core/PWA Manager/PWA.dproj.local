@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2025/05/14 14:10:07.000.361,=C:\Users\Byt3z\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/05/14 14:30:07.000.061,H:\HelixOS\HelixOS_Core\PWA Manager\Umain.fmx=C:\Users\Byt3z\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>2025/05/14 14:30:07.000.061,H:\HelixOS\HelixOS_Core\PWA Manager\Umain.pas=C:\Users\Byt3z\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2025/05/14 14:30:13.000.685,H:\HelixOS\HelixOS_Core\PWA Manager\PWA.dproj=C:\Users\Byt3z\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>
