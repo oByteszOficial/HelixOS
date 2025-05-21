@@ -41,6 +41,7 @@ Made by:
 [Lucmsilva](https://github.com/lucmsilva651)
 [Giv-FNZ](https://github.com/GiovaniFZ)
 [Nassinger](https://github.com/im-nassinger)
+[TryProx](https://github.com/trypr0x)
 
 ---
 
