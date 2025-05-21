@@ -20,7 +20,7 @@ banner.png
 /.git/
 /.vscode/
 /.vs/
-/Electron/
+#/Electron/
 
 # Arquivos de configuração
 
