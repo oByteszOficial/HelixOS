@@ -15,26 +15,77 @@
 
         <header id="top">
 
-            <div class="header" display="flex" flex-direction="row" justify-content="space-between">
+            <div class="header" display="flex" flex-direcrion="row">
 
-                <img src="assets/back" alt="back" id="back" width="20px" height="20px">
-                <img src="assets/forward" alt="forward" id="forward" width="20px" height="20px">
-                <img src="assets/home" alt="home" id="home" width="25px" height="25px">
+                <div class="buttons" display="flex" flex-direction="row" justify-content="space-between">
 
-                <!-- This CRAP here aways go below the topbar buttons and I don't know how to fix -->
-                <!-- note: the fact that the search box is in a different <div> does not affect the position IN THIS CASE -->
-                <center>
-                    
-                    <input type="text" id="search" placeholder="search">
-                    <a>🔎</a>
+                    <img src="assets/back" alt="back" id="back" width="20px" height="20px">
+                    <img src="assets/forward" alt="forward" id="forward" width="20px" height="20px">
+                    <img src="assets/home" alt="home" id="home" width="25px" height="25px">
 
-                </center>
+                </div>
+
+                <div class="search" display="flex" flex-direction="row">
+
+                    <!-- This CRAP here aways go below the topbar buttons and I don't know how to fix -->
+                    <!-- note: the fact that the search box is in a different <div> does not affect the position IN THIS CASE -->
+                    <center>
+                        
+                        <input type="text" id="search" placeholder="search">
+                        <a>🔎</a>
+
+                    </center>
+
+                </div>
 
             </div>
 
         </header>
 
+        <div class="body" display="flex">
+
+            <div class="sidebar">
+
+                <div class="separator" name="separator1">
+
+                    <h6>Home</h6>
+
+                    <div class="markers" name="Mseparator1">
+
+                        <div class="tag" name="home">
+                            <h6>User</h6>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="separator" name="separator2">
+
+                    <h6>Markers</h6>
+
+                    <div class="markers" name="Mseparator2">
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="files">
+
+
+
+            </div>
+
+        </div>
+
         <script src="js/Main.js"></script>
+
+        <!-- forms to submit -->
+         <form name="Fhome" method="post" action="Index.html"></form>
 
     </body>
 
